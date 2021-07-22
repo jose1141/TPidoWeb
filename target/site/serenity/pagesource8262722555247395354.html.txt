@@ -1,0 +1,106 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="j_idt2"><link type="text/css" rel="stylesheet" href="/TPidoWeb/javax.faces.resource/theme.css.xhtml?ln=primefaces-bootstrap"><script type="text/javascript" src="/TPidoWeb/javax.faces.resource/jquery/jquery.js.xhtml?ln=primefaces&amp;v=6.0"></script><script type="text/javascript" src="/TPidoWeb/javax.faces.resource/core.js.xhtml?ln=primefaces&amp;v=6.0"></script><script type="text/javascript" src="/TPidoWeb/javax.faces.resource/idlemonitor/idlemonitor.js.xhtml?ln=primefaces&amp;v=6.0"></script><link type="text/css" rel="stylesheet" href="/TPidoWeb/javax.faces.resource/components.css.xhtml?ln=primefaces&amp;v=6.0"><script type="text/javascript" src="/TPidoWeb/javax.faces.resource/jquery/jquery-plugins.js.xhtml?ln=primefaces&amp;v=6.0"></script><script type="text/javascript" src="/TPidoWeb/javax.faces.resource/components.js.xhtml?ln=primefaces&amp;v=6.0"></script><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='es_PE';}</script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>.:: TPIDO ::.</title>
+	
+	<link href="Content/css/style.css" rel="stylesheet" type="text/css">
+	<link href="Content/css/skin.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="Scripts/modernizr/modernizr.custom.js"></script>
+	<link rel="shortcut icon" href="img/logo.ico"></head><body class="skin-gym bar-white"><div id="j_idt5" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container ui-draggable ui-resizable" role="dialog" aria-labelledby="j_idt5_title" aria-hidden="true" style="width: 400px; height: auto;"><div class="ui-dialog-titlebar ui-widget-header ui-helper-clearfix ui-corner-top ui-draggable-handle"><span id="j_idt5_title" class="ui-dialog-title">Sesión caducada</span></div><div class="ui-dialog-content ui-widget-content" style="height: auto;">La sesión ha caducado, por favor pulse sobre el siguiente botón para volver a acceder a la aplicación
+	<input id="confirmBackToLogin" type="button" value="Volver acceder a la aplicación" onclick="window.location = '/TPidoWeb/index.xhtml';"></div><div class="ui-resizable-handle ui-resizable-n" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-s" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-e" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-w" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-ne" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-nw" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se" style="z-index: 90;"></div><div class="ui-resizable-handle ui-resizable-sw" style="z-index: 90;"></div></div><div id="j_idt8"></div><div id="j_idt9" class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-shadow ui-hidden-container" role="dialog" aria-labelledby="j_idt9_title" aria-hidden="true" style="width: auto; height: auto;"><div class="ui-dialog-content ui-widget-content" style="height: auto;">
+	<img src="img/ajax-loader.gif"></div></div>
+	<section class="wrap-ui">
+
+		<header class="header">
+			<div class="pull-left">
+				<div class="logo-data"></div>
+			</div>
+			<div class="pull-right">
+				<div class="pull-left comp-btn-user">
+					<button id="btnGroupDrop2" type="button" class="btn">
+						<span class="ico-user"></span> <span class="name">MARIA , URQUIZA LUJAN</span>
+					</button>
+				</div>
+				<div class="pull-left">
+					<a href="#"></a>
+<form id="frmCerrarSesion" name="frmCerrarSesion" method="post" action="/TPidoWeb/bienvenidaAlmacen.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="frmCerrarSesion" value="frmCerrarSesion">
+<a id="frmCerrarSesion:linkCerrarSesion" href="#" class="ui-commandlink ui-widget btn-salir" onclick="PrimeFaces.addSubmitParam('frmCerrarSesion',{'frmCerrarSesion:linkCerrarSesion':'frmCerrarSesion:linkCerrarSesion'}).submit('frmCerrarSesion');return false;"></a><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="-5870980951278749900:-8966767220356144871" autocomplete="off">
+</form>
+				</div>
+			</div>
+		</header>
+
+		<div class="menu" style="left: -185px;">
+			<div class="btn-show active"></div>
+			<a class="logo" href="#"> 
+				<img src="Content/images/system/img.png" alt="Logo">
+			</a>
+			<nav class="nav">
+				<ul class="nav-wrap">
+					<li class="nav-01">
+						<span class="list-collapse">Almacen <i class="ico-collapse"></i>
+						</span>
+						<ul class="nav-collapse">
+							<li class="nav-02"><a href="/TPidoWeb/mntAlmacenStock.xhtml" class="ui-link ui-widget">Actualizar Stock</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="wrap-content">
+			<div class="pull-main-content">
+				<div class="main-content view-wrap" style="height: 1233px;">
+					<div class="content-body">
+<form id="frmIndex" name="frmIndex" method="post" action="/TPidoWeb/bienvenidaAlmacen.xhtml" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="frmIndex" value="frmIndex">
+<div id="j_idt16" class="ui-panel ui-widget ui-widget-content ui-corner-all" data-widget="widget_j_idt16"><div id="j_idt16_header" class="ui-panel-titlebar ui-widget-header ui-helper-clearfix ui-corner-all"><span class="ui-panel-title">Bienvenido al Sistema Jefe de Almacen</span></div><div id="j_idt16_content" class="ui-panel-content ui-widget-content"><table id="panel02" cellpadding="5">
+<tbody>
+<tr>
+<td><label id="lblBienvenida">Bienvenido  MARIA , URQUIZA LUJAN!!!</label></td>
+</tr>
+</tbody>
+</table>
+</div></div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="-5870980951278749900:-8966767220356144871" autocomplete="off">
+</form>
+					</div>
+					<footer class="login inter-foot">
+						<div class="row">
+							<div class="col-sm-12">
+								<p class="pull-left">Sistema de Pedidos © Todos los derechos reservados </p>
+								<ul class="pull-right">
+									<li class="title">Powered by Henry Wong</li>
+								</ul>
+							</div>
+						</div>
+					</footer>
+				</div>
+			</div>
+		</div>
+		<div class="up-page upPage">
+			<span class="glyphicon glyphicon-chevron-up"></span>
+		</div>
+	</section>
+	<script type="text/javascript" src="Scripts/bootstrap-jquery-ui/js/bootstrap.js"></script>
+	<script type="text/javascript" src="Scripts/app/jquery.mCustomScrollbar.js"></script>
+	<script type="text/javascript" src="Scripts/app/common.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$(".box-actividad").mCustomScrollbar({
+				setHeight:460,
+			    theme:"dark-3",
+			    theme:"inset-2-dark"
+			    //scrollbarPosition:"outside"
+			});
+			$('[data-toggle="tooltip"]').tooltip();
+			generales();
+		});
+	
+		$(document).ready(function () {
+			$(".btn-show").addClass('active');
+			$(".menu").css({left:'-185px'})
+			});
+	</script>
+<div id="textarea_simulator" style="position: absolute; top: 0px; left: 0px; visibility: hidden;"></div><div class="ui-dialog-docking-zone"></div><div id="frmCerrarSesion:toolTipFade" class="ui-tooltip ui-widget ui-tooltip-bottom"><div class="ui-tooltip-arrow"></div><div class="ui-tooltip-text ui-shadow ui-corner-all">Cerrar Sesión</div></div></body></html>

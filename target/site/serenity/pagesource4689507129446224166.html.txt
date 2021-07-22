@@ -1,0 +1,55 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="j_idt2"><link type="text/css" rel="stylesheet" href="/TPidoWeb/javax.faces.resource/theme.css.xhtml?ln=primefaces-bootstrap"><link type="text/css" rel="stylesheet" href="/TPidoWeb/javax.faces.resource/components.css.xhtml;jsessionid=1C0D8EFABBE4B42D2DF113A1BCB22797?ln=primefaces&amp;v=6.0"><script type="text/javascript" src="/TPidoWeb/javax.faces.resource/jquery/jquery.js.xhtml;jsessionid=1C0D8EFABBE4B42D2DF113A1BCB22797?ln=primefaces&amp;v=6.0"></script><script type="text/javascript" src="/TPidoWeb/javax.faces.resource/core.js.xhtml;jsessionid=1C0D8EFABBE4B42D2DF113A1BCB22797?ln=primefaces&amp;v=6.0"></script><script type="text/javascript" src="/TPidoWeb/javax.faces.resource/components.js.xhtml;jsessionid=1C0D8EFABBE4B42D2DF113A1BCB22797?ln=primefaces&amp;v=6.0"></script><script type="text/javascript" src="/TPidoWeb/javax.faces.resource/jquery/jquery-plugins.js.xhtml;jsessionid=1C0D8EFABBE4B42D2DF113A1BCB22797?ln=primefaces&amp;v=6.0"></script><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='es_PE';}</script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>.:: TPIDO ::.</title>
+	
+	<link href="Content/css/style.css" rel="stylesheet" type="text/css">
+	<link href="Content/css/skin.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="Scripts/modernizr/modernizr.custom.js"></script>
+	<link rel="shortcut icon" href="img/logo.ico"></head><body class="skin-gym bar-white">
+	<section class="box-login">
+		<div class="wrap-login">
+			<div class="logo-solo-login">
+				<img src="Content/images/system/logo-solomon.png">
+			</div>
+			<div class="form-login">
+<form id="frmLogin" name="frmLogin" method="post" action="/TPidoWeb/index.xhtml;jsessionid=1C0D8EFABBE4B42D2DF113A1BCB22797" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="frmLogin" value="frmLogin">
+
+					<div class="form-login-header">Autenticación del usuario </div>
+					<div class="form-login-body">
+						<div class="form-group input-group">
+							<span class="input-group-addon ico-log ico-user-login"> <i class=""> <img src="Content/images/system/ico-user-login.png">
+							</i>
+							</span><input id="txtUsuario" name="txtUsuario" type="text" placeholder="Correo" aria-required="true" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all form-control" role="textbox" aria-disabled="false" aria-readonly="false">
+
+						</div>
+						<div class="input-group">
+							<span class="input-group-addon ico-log ico-pass-login"> <i class=""> <img src="Content/images/system/ico-user-pass.png">
+							</i>
+							</span><input id="txtClave" name="txtClave" type="password" class="ui-inputfield ui-password ui-widget ui-state-default ui-corner-all form-control" placeholder="Clave" aria-required="true" role="textbox" aria-disabled="false" aria-readonly="false">
+
+						</div>
+					</div>
+					<div class="form-login-footer"><button id="btnIniciarSesion" name="btnIniciarSesion" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only btn-add" onclick="PrimeFaces.ab({s:&quot;btnIniciarSesion&quot;});return false;" type="submit" role="button" aria-disabled="false"><span class="ui-button-text ui-c">Iniciar Sesión</span></button>
+						<br><a href="/TPidoWeb/registrarUsuario.xhtml;jsessionid=1C0D8EFABBE4B42D2DF113A1BCB22797" class="ui-link ui-widget">Registrar nuevo usuario</a>
+					</div>
+					<div><div id="messages" class="ui-messages ui-widget" aria-live="polite"></div>
+					</div><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="-9134782672479124913:8490398076240273757" autocomplete="off">
+</form>
+			</div>
+		</div>
+	</section>
+	<footer class="login">
+		<div class="row">
+			<div class="col-sm-12">
+				<p class="pull-left">Sistema de Pedidos © Todos los derechos
+					reservados</p>
+				<ul class="pull-right">
+					<li class="title">Powered by Henry Wong</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+<div id="textarea_simulator" style="position: absolute; top: 0px; left: 0px; visibility: hidden;"></div></body></html>
